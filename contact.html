@@ -1,0 +1,128 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <ul>
+  <a href="index.html">Home</a>
+  <a href="dogs.html">Dogs</a>
+  <a href="cats.html">Cats</a>
+  <a class="active" href="contact.html">Contact us</a>
+</ul>
+</div>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div style="padding-left:16px">    
+<h2>Contact Form</h2>
+
+<div class="container">
+  <form action="index.html">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="uk">United Kingdom</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<br>
+<div class="footer">
+<div style="padding-left:16px"></div>
+<h2>Check out our social media:</h2>
+    <a href="https://twitter.com/CodeFirstGirls" class="social" target="blank">
+      <img title="Twitter" alt="Twitter" class="socialbutton" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png" width="45" height="45" /></a>
+    <a href="https://en-gb.facebook.com/codefirstgirls/" class="social" target="blank">
+      <img title="Facebook" alt="Facebook" class="socialbutton" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook.png" width="45" height="45" /></a>
+    <a href="https://www.instagram.com/codefirstgirls/" class="social" target="blank">
+      <img title="Instagram" alt="Instagram" class="socialbutton" src="https://socialmediawidgets.files.wordpress.com/2014/03/10_instagram.png" width="45" height="45" /></a>
+<br>
+<br>
+<form id="subscribe-form">
+ <div class="form-group">
+  <label id="subscribe-label" for="Email"></label>
+   <input type="text" name="Email" id="subscribe-label" class="form-control" placeholder="Please Enter Your Email Here" required=""></form>
+<button type="submit" id="submit" class="submit-button">Subscribe</button>
+</div>
+</html>
